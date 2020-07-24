@@ -1,0 +1,107 @@
+#form_busca {
+    float: left;
+    width: 100%;
+}
+
+#form_busca label {
+    width: 500px;
+    float: left;
+}
+
+#form_busca label span {
+    font: 15px tahoma;
+    color: black;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#form_busca input {
+    width: 80%;
+    padding: 10px;
+    left: 390px;
+    position: relative;
+    top: 120px;
+}
+
+.botao {
+    padding: 4px 6px;
+    color: white;
+    font: 16px Tahoma;
+    background: linear-gradient(to bottom, #069, #09c 130%);
+    border: 1px solid #036;
+    margin-top: 10px;
+    width: 170;
+    position: relative;
+    left: 110;
+}
+
+table {
+    background: white;
+    text-align: center;
+    font: 17px Tahoma;
+    color: #000;
+    left: 120;
+    position: relative;
+}
+
+table thead tr td {
+    background: linear-gradient(to bottom, #fff, #ccc 130%);
+    padding: 5px;
+}
+
+table tbody tr td {
+    padding: 5px;
+}
+
+table tbody tr td#total {
+    color: green;
+    font-weight: bold;
+}
+
+#resultado_busca {
+    float: left;
+    width: 630px;
+    margin: 10px 0;
+}
+
+#resultado_busca a {
+    float: right;
+    left: 120px;
+    width: 90%;
+    height: 30;
+    border: 1px solid #ccc;
+    background: #fff;
+    font: 16px "Trebuchet MS", tahoma;
+    color: #000;
+    text-decoration: none;
+}
+
+#resultado_busca a:hover {
+    background: #f0f0f0;
+}
+
+@media (max-width: 980px) {
+    table {
+        background: white;
+        text-align: center;
+        font: 17px Tahoma;
+        color: #000;
+        left: 60;
+        position: relative;
+    }
+}
+
+@media (max-width: 980px) {
+    .botao {
+        padding: 4px 6px;
+        color: white;
+        font: 16px Tahoma;
+        background: linear-gradient(to bottom, #069, #09c 130%);
+        border: 1px solid #036;
+        margin-top: 10px;
+        width: 170;
+        position: relative;
+        left: 60;
+    }
+}

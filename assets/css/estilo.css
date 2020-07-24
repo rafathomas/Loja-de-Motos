@@ -1,0 +1,112 @@
+.container {
+    width: 70%;
+    /* define a largura do campo */
+    position: relative;
+    /* cria o contexto de posicionamento do botão */
+    right: 130px;
+    left: 25%;
+}
+
+.container1 {
+    width: 50%;
+    /* define a largura do campo */
+    position: relative;
+    /* cria o contexto de posicionamento do botão */
+    right: 130px;
+    left: 25%;
+}
+
+label {
+    display: block;
+    top: 60;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+}
+
+#nome1 {
+    top: 30px;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+}
+
+#dados {
+    position: relative;
+    float: left;
+    left: -290;
+    top: 13;
+}
+
+#dados1 {
+    position: relative;
+    right: -1px;
+    top: -5px;
+    float: right;
+}
+
+#MostraPesq {
+    top: -120;
+    text-align: center;
+    position: relative;
+}
+
+.container3 {
+    top: 100px;
+    width: 50%;
+    /* define a largura do campo */
+    position: relative;
+    /* cria o contexto de posicionamento do botão */
+    right: 130px;
+    left: 25%;
+}
+
+#pesquisaCliente {
+    width: 50%;
+    padding: 10px;
+    left: 214px;
+    position: relative;
+}
+
+#orcamento {
+    left: 696px;
+    position: relative;
+    top: -43px;
+}
+
+@media (max-width: 980px) {
+    #dados1 {
+        position: relative;
+        right: 48px;
+        top: -5px;
+        float: right;
+    }
+}
+
+@media (max-width: 980px) {
+    #pesquisaCliente {
+        width: 70%;
+        padding: 10px;
+        left: 0px;
+        position: relative;
+    }
+}
+
+@media (max-width: 980px) {
+    #nome {
+        top: 30px;
+        position: relative;
+        font-weight: bold;
+        left: -60px;
+    }
+}
+
+@media (max-width: 980px) {
+    #orcamento {
+        left: 250px;
+        position: relative;
+        top: -43px;
+    }
+}
